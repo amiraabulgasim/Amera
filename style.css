@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+ 
+    color: #9c9c9c;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header h2 {
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.experience-card {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+@media(max-width: 768px) {
+    header {
+        padding-top: 10px;
+    }
+    section {
+        padding: 10px;
+    }
+}
